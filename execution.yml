@@ -1,1 +1,11 @@
 # ceit_jenkins
+---
+execution:
+-concurency: 50
+ hold-for: 3m
+ ramp-up: 2m
+ 
+ scenario: Choose Flight
+ scenarios:
+ Choose Flight:
+ requests:
